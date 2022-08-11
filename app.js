@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
             lon = posicion.coords.longitude
             lat = posicion.coords.latitude
             //ubicación actual    
-            const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=d3b827c9316d2ba1a07716813cb057a6`
+            const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid={'Debe ir la key'}`
 
             console.log(url)
 
